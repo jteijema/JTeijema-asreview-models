@@ -1,6 +1,3 @@
-from math import ceil
-import tensorflow as tf
-
 from tensorflow.keras import Sequential
 from tensorflow.keras import layers
 from tensorflow.keras import activations

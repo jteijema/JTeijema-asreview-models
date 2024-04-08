@@ -73,6 +73,9 @@ Feature Extractors Available:
     onehot
     spacy
     word2vec
+    scaled-doc2vec
+    softmax-doc2vec
+    relu-doc2vec
 
 ## Installation
 

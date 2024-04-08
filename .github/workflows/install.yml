@@ -1,4 +1,4 @@
-name: Pylint
+name: Ruff
 
 on: [push]
 
@@ -11,9 +11,6 @@ jobs:
       with:
         python-version: '3.x'
         architecture: 'x64'
-    - name: Install ruff
+    - name: Install package
       run: |
-        pip install ruff
-    - name: Lint python with ruff
-      run: |
-        ruff check .
+        pip install .

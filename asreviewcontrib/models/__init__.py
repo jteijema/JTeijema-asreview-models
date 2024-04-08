@@ -12,3 +12,6 @@ from .adaboost import AdaBoost
 from .knn import KNN
 from .random import RandomClassifier
 from .ftsbert import FullTextSBERTModel
+from .relu_doc2vec import ReLUDoc2Vec
+from .softmax_doc2vec import SoftMaxDoc2Vec
+from .scaled_doc2vec import ScaledDoc2Vec

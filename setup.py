@@ -47,6 +47,9 @@ setup(
             "onehot = asreviewcontrib.models:OneHot",
             "spacy = asreviewcontrib.models:SpacyEmbeddingExtractor",
             "word2vec = asreviewcontrib.models:Word2VecModel",
+            "relu-doc2vec = asreviewcontrib.models:ReLUDoc2Vec",
+            "softmax-doc2vec = asreviewcontrib.models:SoftMaxDoc2Vec",
+            "scaled-doc2vec = asreviewcontrib.models:ScaledDoc2Vec",
         ],
         'asreview.models.balance': [
             # define balance strategy algorithms

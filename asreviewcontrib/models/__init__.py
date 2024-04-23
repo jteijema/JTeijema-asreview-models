@@ -15,3 +15,4 @@ from .ftsbert import FullTextSBERTModel  # noqa: F401
 from .relu_doc2vec import ReLUDoc2Vec  # noqa: F401
 from .softmax_doc2vec import SoftMaxDoc2Vec  # noqa: F401
 from .scaled_doc2vec import ScaledDoc2Vec  # noqa: F401
+from .mxbai import MXBAI  # noqa: F401

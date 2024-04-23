@@ -24,10 +24,11 @@ setup(
         'sentence_transformers',
         'gensim',
         'scikeras',
-        'fasttext',
+        #'fasttext',
         'spacy',
         'scikit-learn',
-        'tensorflow'
+        'tensorflow',
+        'scipy==1.10.1'
     ],
     entry_points={
         'asreview.models.classifiers': [
@@ -50,6 +51,7 @@ setup(
             "relu-doc2vec = asreviewcontrib.models:ReLUDoc2Vec",
             "softmax-doc2vec = asreviewcontrib.models:SoftMaxDoc2Vec",
             "scaled-doc2vec = asreviewcontrib.models:ScaledDoc2Vec",
+            "mxbai = asreviewcontrib.models:MXBAI",
         ],
         'asreview.models.balance': [
             # define balance strategy algorithms

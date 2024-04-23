@@ -76,6 +76,7 @@ Feature Extractors Available:
     scaled-doc2vec
     softmax-doc2vec
     relu-doc2vec
+    mxbai
 
 ## Installation
 
